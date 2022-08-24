@@ -31,3 +31,12 @@ body {
   text-shadow: 3px 3px #5d5d5a;
   letter-spacing: 8px;
 }
+
+@media screen and (max-width: 900px) {
+  .clock {
+    width: 30rem;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 5px;
+  }
+}
